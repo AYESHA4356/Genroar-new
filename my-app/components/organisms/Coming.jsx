@@ -26,14 +26,14 @@ const Coming = () => {
   return (
     <div>
       <div className='bg1'>
-        <div className='text-center items-center'>
+        <div className='text-center items-center'> 
           <div className='flex justify-center pt-[5%] mb-[3%]'>
             <a href="">
               <img className='w-[80px]' src="/assits/images/logo2.png" alt="Logo" />
             </a>
           </div>
           <div>
-            <Heading level='2'>We are coming soon</Heading>
+            <heading className='text-[36px] leading-[38px] font-bold text-white'>We are coming soon</heading>
             <p className='paragraph'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Est recusandae cum omnis incidunt, temporibus
               <br /> quibusdam libero consequatur perspiciatis accusantium illum?
