@@ -207,7 +207,7 @@ li:hover .dropdown2 {
     /* visibility delay ensures it changes after opacity */
 }
 .bg1{
-    background-image:url(../public/assits/images/about1.webp) ;
+    background-image:url(../public/assits/images/coming-soon.webp) ;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;

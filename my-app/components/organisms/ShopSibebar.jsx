@@ -1,11 +1,14 @@
-import React from 'react'
-import AnchorTag from '../atoms/anchorTag'
-import Heading from '../atoms/Heading'
-import Button from '../atoms/Button'
-import Catagories from '../molecules/Catagories'
-import ShopTags from '../atoms/ShopTags'
+const React = require('react');
+const { useState } = React;
+const Heading = require('../atoms/Heading');
+const Button = require('../atoms/Button');
+const Catagories = require('../molecules/Catagories');
+const ShopTags = require('../atoms/ShopTags');
 
 const ShopSibebar = () => {
+
+    const [length, setlength] = useState(50)
+
     return (
         <div className='w-[20%]' >
             {/* <div className="flex gap-[10px] items-center ">
@@ -16,11 +19,18 @@ const ShopSibebar = () => {
             */}
             <Heading level='17' > Filter By Price </Heading>
             <div className="filter flex flex-col gap-[12px] mt-[30px] ">
-                <input type="range" className='w-[100%]' />
+                <input
+                    type="range"
+                    className='w-[100%]'
+                    value={length}
+                    min={50}
+                    max={5000}
+                    onChange={(e) => setlength(e.target.value) }
+                />
                 <div className="flex w-[100%] justify-between items-center  ">
                     <Button variant='filter' >FILTER</Button>
                     <div className="flex gap-[3px] ">
-                        <span>$50</span>
+                        <span>$ {length}</span>
                         <span>-</span>
                         <span>$500</span>
                     </div>

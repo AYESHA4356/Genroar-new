@@ -34,7 +34,7 @@ const Coming = () => {
           </div>
           <div>
             <heading className='text-[36px] leading-[38px] font-bold text-white'>We are coming soon</heading>
-            <p className='paragraph'>
+            <p className='text-[14px]  text-white font-[400] leading-[30px]'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Est recusandae cum omnis incidunt, temporibus
               <br /> quibusdam libero consequatur perspiciatis accusantium illum?
             </p>
@@ -62,7 +62,7 @@ const Coming = () => {
           <heading className='text-[#fff] text-[16px] font-bold font-600 text-center mb-[20px]'>Subscribe For Our Next Update</heading>
           <div className="input relative">
             <div>
-              <Input type='text' variant='four' placeholder='Enter your e-mail....' />
+              <Input type='text' variant='four' placeholder='Enter your e-mail....'/>
             </div>
             <div className="absolute text-[14px] font-[600] top-[28%] right-[4%] border-l-[3px] pl-[10px] text-white hover:text-[#ff6a28]">
               <a href="">SUBSCRIBE</a>
