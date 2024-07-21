@@ -8,16 +8,15 @@ import Headermain from "@/components/organisms/Headermain";
 function Check() {
   return (
     <div className='' >
-      
-      
+
+
       <Headermain />
-      <CheckData/>
-          
-           <Checkpolicy />
-          <Checkcode />
-         <CheckForm/>
-         
-         <Footer/>
+      <CheckData />
+      <Checkpolicy />
+      <Checkcode />
+      <CheckForm />
+
+      <Footer />
     </div>
   )
 }
