@@ -15,28 +15,28 @@ function ProductUpsell() {
                 src='../assits/images/product1.webp'
                 src2='../assits/images/product1bg.png'
                 href='#'
-                price='$60'
+                price='$60.00'
                 name='Apple iPad with Retina'
             />
             <HomeProductSec
                 src='../assits/images/coat2.webp'
                 src2='../assits/images/coat3.webp'
                 href='#'
-                price='$60'
+                price='$60.00'
                 name='Beats Solo 2'
             />
             <HomeProductSec
                 src='../assits/images/shoe.webp'
                 src2='../assits/images/shoe-nike.webp'
                 href='#'
-                price='$60'
+                price='$60.00'
                 name='Marshall Portable Bluetooth'
             />
             <HomeProductSec
                 src='../assits/images/shoe.webp'
                 src2='../assits/images/shoe-nike.webp'
                 href='#'
-                price='$60'
+                price='$60.00'
                 name='Marshall Portable Bluetooth'
             />
         </div>
