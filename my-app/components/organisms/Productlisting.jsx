@@ -13,7 +13,7 @@ const PortListing = () => {
 
   return (
     <div>
-      <div className="flex border flex-col">
+      <div className="flex mt-[50px] border flex-col">
         <div className="">
           <ProductInfo
             more={() => handleTabChange("more")}
@@ -22,7 +22,7 @@ const PortListing = () => {
           />
         </div>
         <div className="flex-col justify-center">
-          <div className=" py-[20px] px-[30px] ">
+          <div className="py-[20px] px-[30px] ">
             {activeTab === "more" && <ProductMore/>}
             {activeTab === "date" && <ProductSheet />}
             {activeTab === "reviews" && <Productreviews />}
