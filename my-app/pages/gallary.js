@@ -11,7 +11,6 @@ import React from 'react'
 function gallary() {
   return (
       <div>
-        hello
           <Headermain />
           <GallaryData />
           <Gallary/>
