@@ -16,7 +16,7 @@ function ProductInfo({ more, date, reviews }) {
               handleButtonClick("more");
               more();
             }}
-            className={`h-[45px] px-[30px]  font-semibold	 border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28] hover:text-white  text-center  flex items-center justify-center  text-[16px]  border-none bg-gray-300  hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300 ${activeButton === "more" ? "text-white bg-[#ff6929fd] " : ""
+            className={`h-[45px] px-[30px]  font-semibold	 border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28] hover:text-white  text-center  flex items-center justify-center  text-[16px]  border-none bg-gray-300  hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300 ${activeButton === "more" ? "text-white bg-[#ff6e30fd] " : ""
               }`}
           >
 
@@ -27,7 +27,7 @@ function ProductInfo({ more, date, reviews }) {
               handleButtonClick("date");
               date();
             }}
-            className={`h-[45px] px-[30px]  font-semibold	 border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28] hover:text-white  text-center  flex items-center justify-center  text-[16px]  border-none bg-gray-300  hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300 ${activeButton === "date" ? "text-white bg-[#ff6929fd]" : ""
+            className={`h-[45px] px-[30px]  font-semibold	 border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28] hover:text-white  text-center  flex items-center justify-center  text-[16px]  border-none bg-gray-300  hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300 ${activeButton === "date" ? "text-white bg-[#ff6e30fd]" : ""
               }`}
           >
             DATE SHEET
@@ -37,7 +37,7 @@ function ProductInfo({ more, date, reviews }) {
               handleButtonClick("reviews");
               reviews();
             }}
-            className={`h-[45px] px-[30px]  font-semibold	 border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28] hover:text-white  text-center  flex items-center justify-center  text-[16px]  border-none bg-gray-300  hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300 ${activeButton === "reviews" ? "text-white bg-[#ff6929fd] " : ""
+            className={`h-[45px] px-[30px]  font-semibold	 border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28] hover:text-white  text-center  flex items-center justify-center  text-[16px]  border-none bg-gray-300  hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300 ${activeButton === "reviews" ? "text-white bg-[#ff6e30fd] " : ""
               }`}
           >
             REVIEWS
