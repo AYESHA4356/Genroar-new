@@ -3,6 +3,7 @@ import ShopProduct from '../molecules/ShopProduct'
 
 const Shop4 = () => {
     return (
+        
         <div>
             <div className="products grid grid-cols-3 gap-[3%] ">
                 <ShopProduct src="/assits/images/shoe.webp" src2="/assits/images/shoe-nike.webp" />
