@@ -16,7 +16,7 @@ function Portfoliobtns({ all , company , computer ,genrel, hipster ,food }) {
             all();
           }}
           className={`h-[40px] px-[15px] border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28] hover:text-white  text-center  flex items-center justify-center  text-[14px] font-[500] text-[#747474] border-none bg-white  hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300 ${
-            activeButton === "all" ? "bg-gray-500 text-red-500 " : ""
+            activeButton === "all" ? "text-white bg-[#ff6e30fd] " : ""
           }`}
         >
           all
@@ -27,7 +27,7 @@ function Portfoliobtns({ all , company , computer ,genrel, hipster ,food }) {
             company();
           }}
           className={`h-[40px] px-[15px] border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28] hover:text-white  text-center  flex items-center justify-center  text-[14px] font-[500] text-[#747474] border-none bg-white  hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300 ${
-            activeButton === "company" ? "bg-[#ff6a28] text-white " : ""
+            activeButton === "company" ? "text-white bg-[#ff6e30fd] " : ""
           }`}
         >
           company
@@ -38,7 +38,7 @@ function Portfoliobtns({ all , company , computer ,genrel, hipster ,food }) {
             computer();
           }}
           className={`h-[40px] px-[15px] border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28] hover:text-white  text-center  flex items-center justify-center  text-[14px] font-[500] text-[#747474] border-none bg-white  hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300 ${
-            activeButton === "computer" ? " text-white bg-[#ff6a28] " : ""
+            activeButton === "computer" ? "text-white bg-[#ff6e30fd] " : ""
           }`}
         >
           Computer
@@ -49,7 +49,7 @@ function Portfoliobtns({ all , company , computer ,genrel, hipster ,food }) {
             genrel();
           }}
           className={`h-[40px] px-[15px] border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28] hover:text-white  text-center  flex items-center justify-center  text-[14px] font-[500] text-[#747474] border-none bg-white  hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300 ${
-            activeButton === "genrel" ? "bg-[#FF6A28] text-white " : ""
+            activeButton === "genrel" ? "text-white bg-[#ff6e30fd] " : ""
           }`}
         >
           genrel
@@ -60,7 +60,7 @@ function Portfoliobtns({ all , company , computer ,genrel, hipster ,food }) {
             hipster();
           }}
           className={`h-[40px] px-[15px] border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28] hover:text-white  text-center  flex items-center justify-center  text-[14px] font-[500] text-[#747474] border-none bg-white  hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300 ${
-            activeButton === "hipster" ? "bg-[#FF6A28] text-white " : ""
+            activeButton === "hipster" ? "text-white bg-[#ff6e30fd] " : ""
           }`}
         >
           Hipster
@@ -71,7 +71,7 @@ function Portfoliobtns({ all , company , computer ,genrel, hipster ,food }) {
             food();
           }}
           className={`h-[40px] px-[15px] border-[1px] uppercase cursor-pointer border-[#242424] hover:border-[#ff6a28] hover:text-white  text-center  flex items-center justify-center  text-[14px] font-[500] text-[#747474] border-none bg-white  hover:bg-[#fd7e14] hover:boder-[#fd7e14] ease-in duration-300 ${
-            activeButton === "food" ? "bg-[#FF6A28] text-white " : ""
+            activeButton === "food" ? "text-white bg-[#ff6e30fd] " : ""
           }`}
         >
           Just Food
